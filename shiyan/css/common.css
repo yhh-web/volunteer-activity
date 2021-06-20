@@ -1,0 +1,103 @@
+html {
+	font-size: 20px;
+}
+@media only screen and (min-width: 320px) {
+	/*iphone4 5 */
+	html {
+		font-size: 18px !important;
+	}
+}
+@media only screen and (min-width: 375px) {
+	/*iphone6 */
+	html {
+		font-size: 20px!important;
+	}
+}
+@media only screen and (min-width: 401px) {
+	html {
+		font-size: 22px !important;
+	}
+}
+@media only screen and (min-width: 428px) {
+	html {
+		font-size: 22.75px !important;
+	}
+}
+@media only screen and (min-width: 414px) {
+	/*iphone6 +*/
+	html {
+		font-size: 22px !important;
+	}
+}
+@media only screen and (min-width: 481px) {
+	html {
+		font-size: 30px !important;
+	}
+}
+@media only screen and (min-width: 569px) {
+	html {
+		font-size: 35px !important;
+	}
+}
+@media only screen and (min-width: 641px) {
+	html {
+		font-size: 40px !important;
+	}
+}
+body{
+	width: 100%;
+	margin:0 auto; 
+	padding: 0;
+	height: 100%;
+	color: #333;
+	font-size: 0.75rem;
+	background: #fff;
+	font-family: 'microsoft yahei','微软雅黑','abchanel-couture','华文细黑','STXHei','华文黑体','ST Heiti','MS黑体','MSHei','Arial','Helvetica','sans-serif';
+    /*max-width:7.5rem;*/
+}
+
+ul,li,a,p,h1,h2,h3,h4,h5,div,input,textarea{ margin: 0; padding: 0;}
+em,cite,i{ font-style: normal;}
+table{border-collapse: collapse;}
+table td {border-collapse: collapse;}
+a{text-decoration: none;}
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button {-webkit-appearance: none;}
+input[type=text] {margin: 0;padding: 0;border: 0;-webkit-appearance: none;border-radius: none;}
+input[type=tel] {margin: 0;padding: 0;border: 0;-webkit-appearance: none;border-radius: none;}
+input[type=number] {margin: 0;padding: 0;border: 0;-webkit-appearance: none;border-radius: none;}
+
+
+/*去除安卓手机浏览器 输入框选择自带黄色高亮边框样式*/
+input:focus, textarea:focus, a:hover, a:active {
+-webkit-tap-highlight-color:rgba(0,0,0,0);
+/*-webkit-user-modify:read-write-plaintext-only;*/
+outline:0;
+}
+
+
+
+select {-webkit-appearance: none;}
+input:focus{border: none; outline: none;}
+.bold {font-weight: bold;}
+.red {color:#FF0000;}
+.yellow{ color: #f00;}
+.fl{ float: left;}
+.fr{ float: right;}
+.clear{clear: both;}.overhidden{ overflow: hidden;}
+cite{font-style: normal;}ul {list-style: none;}
+.font1rem{ font-size: 1rem;}
+.font12rem{ font-size: 1.2rem;}
+.mt1rem{ margin: 1rem auto 0;}
+.btnbox{width: 96%;  }
+.btnbox a.btnAgreen{ display: block;  padding: 0.4rem 0;  width: 99%; text-align: center; color: #fff; border-radius: 5px;border: 1px solid #04be02; background: #04be02; font-size:1rem;}
+.btnbox a.btnAblue{ display: block; padding: 0.4rem 0; width: 99%; text-align: center; color: #fff; border-radius: 5px;border: 1px solid #0095ED; background: #0095ED;font-size:1rem;}
+
+.btnbox a.btnAgra{ display: block; padding: 0.4rem 0; width: 99%; text-align: center; margin: 0 auto; color: #333; border-radius: 5px; background: none; border: 1px solid #e0e0e0;font-size:1rem;}
+.block{ display: block;}
+.width94{ width: 94%; margin: 0 auto;}
+.green{ color: #04be02;}
+.red{ color: #F46A6A;}
+

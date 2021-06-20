@@ -1,0 +1,45 @@
+.contact{
+	width: 100%;
+}
+.header{
+	height:1.88rem;
+    line-height: 1.88rem;
+	padding:0 0.4rem;
+	color:#fff;
+	font-size:0.28rem;
+	background:#4974f5;
+}
+.header .center {
+	width:100%;
+	float:left;
+	font-size:0.8rem;
+	text-align:center;
+}
+.summary{
+	
+}
+.logo{
+	text-align: center;
+}
+.logo img{
+	width:100%;
+}
+.telphone{
+	margin:1.5rem 0;
+}
+.kefu{
+	margin: 0 auto;
+    height: 3rem;
+    width: 72%;
+}
+.kefu img{
+	float: left;
+	width: 1.8rem;
+	margin-top: 0.5rem;
+}
+.kefu p{
+   line-height: 2.8rem;
+   margin-left: 2.3rem;
+   font-size: 0.9rem;
+   color: #555;
+}
